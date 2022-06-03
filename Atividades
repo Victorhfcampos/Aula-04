@@ -47,4 +47,16 @@ print(f'O montante é de {montante:.2f}')
 
 Atividade 04
 Solicite ao usuário que informe notas enquanto desejar e, ao final, informe a média das notas digitadas.
+qtd = 0
+soma = 0
 
+while True:
+    nota = float(input("Informe uma nota ou uma nota negativa para encerrar: "))
+    if nota >= 0:
+        #qtd = qtd + 1
+        qtd += 1
+        soma += nota
+    else:
+        break
+
+print(f"A média do aluno foi {(soma/qtd):.2f}")
