@@ -1,0 +1,50 @@
+Atividade 01
+Peça para o usuário digitar dois nomes e imprima o maior deles utilizando F-STRING.
+nome1 = input("Informe um nome: ")
+nome2 = input("Informe outro nome: ")
+
+#print(len(nome1))
+
+if len(nome1) > len(nome2):
+    print(f"O maior nome é {nome1}")
+elif len(nome2) > len(nome1):
+    print(f"O maior nome é {nome2}")
+else:
+    print("Os dois nomes tem o mesmo tamanho")
+
+Atividade 02
+Solicite ao usuário um número inteiro e imprima na tela:
+i) O quadrado do número caso seja par
+ii) O cubo caso o número seja ímpar
+
+numero = int(input("Entre com um numero inteiro: "))
+
+if numero%2 == 0:
+    print(numero**2)
+else:
+    print(numero**3)
+    
+Atividade 03
+Crie um programa que receba o valor de um capital investido, a taxa de juros, a modalidade (Simples ou Composto) e o tempo de aplicação e, ao final, mostre o montante.
+capital = float(input('Capital inicial: '))
+taxa = float(input('Taxa: '))
+tempo = int(input('Tempo de aplicação: '))
+modalidade = input('Modalidade (simples/composto): ')
+
+if modalidade == 'simples':
+    montante = capital*(1+taxa*tempo)
+elif modalidade == 'composto':
+    montante = capital*((1+taxa)**tempo)
+else:
+    print('Modalidade inválida')
+    
+Atividade 04
+Solicite ao usuário que informe notas enquanto desejar e, ao final, informe a média das notas digitadas.
+
+
+
+print(f'O montante é de {montante:.2f}')
+
+Atividade 04
+Solicite ao usuário que informe notas enquanto desejar e, ao final, informe a média das notas digitadas.
+
