@@ -1,0 +1,144 @@
+"""
+print("Área de um triângulo")
+base = float(input("Informe o valor da base do triângulo: "))
+altura = float(input("Informe o valor da aultura do triângulo: "))
+area = (base*altura)/2
+print(area)
+
+print("Área de um quadrado")
+lado = float(input("Informe a área do lado do quadrado: "))
+area2 = lado**2
+print("Area do quadrado :", area2)
+
+print("Cálculo do salário base")
+salario = float(input("Informe o valor da hora trabalhada: "))
+horas = float(input("Informe a quantidade de horas trabalhadas: "))
+salario_base = salario * horas
+comissao = float(input("Informe o % de comissão: "))
+comissao = comissao/100
+comissao_final = float(salario_base*comissao)
+salario_final= float(salario_base+comissao_final)
+print(salario_final)
+
+print("Preço final do produto: ")
+produto = float(input("Informe o preço do produto: "))
+desconto = float(produto*0.1)
+preco_final = float(produto) - float(desconto)
+print("O preço final do seu produto é:", (preco_final))"""
+
+"""
+print("Verificação se um número é positivo: ")
+number= float(input("Digite um número: "))
+if number > 0:
+    print("O número é positivo")
+else:
+    print("O número é negativo")"""
+"""
+taxa1 = float(input("Qual é a taxa de ocupação do hospital: "))
+taxa2 = taxa1/100
+print(taxa2)
+
+respiradores = float(input("Quantos respiradores há disponíveis? "))
+respiradores2 = int(respiradores + 5)
+
+if taxa2 >0.6 and respiradores < 50:
+    print(f'Você terá que ter:{respiradores2} respiradores')
+else:
+    print("Você tem respiradores suficientes")"""
+
+"""
+print("Verifique quem ganhou")
+
+gols_timea = int(input("informe a quantidade de gols do time A: "))
+gols_timeb = int(input("informe a quantidade de gols do time B: "))
+
+if gols_timea > gols_timeb:
+    print("Time A venceu")
+elif gols_timea == gols_timeb:
+    print("O jogo empatou")
+else:
+    print("Time B venceu")"""
+
+"""
+nota1 = float(input("Informe a sua primeira nota: "))
+nota2 = float(input("Informe a sua segunda nota: "))
+nota3 = float(input("Informe a sua terceira nota: "))
+media = (nota1+nota2+nota3)/3
+
+if media >=9:
+    print("Você foi aprovado com honras")
+elif media >=7:
+    print("Você foi aprovado!")
+elif media <7<=5:
+    print("Você está de recuperação!")
+else:
+    print("Você reprovou!")"""
+
+"""print("Verificação se um número é par ou ímpar")
+
+numero= int(input("Digite um número: "))
+if(numero%2==0):
+    print("Seu número é par")
+else:
+    print("Seu número é impar")"""
+"""
+print("Verificação se um triângulo é isoceles, equilatero ou escaleno: ")
+med1 = float(input("Informe a medida do L1: "))
+med2= float(input("Informe a medida do L2: "))
+med3 = float(input("Informe a medida do L3: "))
+
+if(med1==med2==med3):
+    print("Seu triângulo é equilatero")
+elif(med1!=med2==med3):
+    print("Seu triângulo é escaleno")
+else:print("Seu triângulo é isóceles")"""
+"""
+print("Verifique se uma letra é vogal ou consoante: ")
+letra = str(input("Digite uma letra: "))
+if(letra == "a"):
+    print("Sua letra é uma vogal")
+elif(letra == "e"):
+    print("Sua letra é uma vogal")
+elif(letra == "i"):
+    print("Sua letra é uma vogal")
+elif(letra == "o"):
+    print("Sua letra é uma vogal")
+elif(letra == "u"):
+    print("Sua letra é uma vogal")
+else:(print("Sua letra é uma consoante"))
+#sempre usar aspas ao se utilizar uma variável str (que é a variável de texto)"""
+
+#Estrutura de repetição
+
+"""num = 5
+while num > 0:
+    print(f'O valor de num é: {num}')
+    num = num -1"""
+
+"""import random
+
+sorteado = random.randrange(1,10)
+numero = 0
+while numero != sorteado:
+    numero=int(input("Digite o valor: "))"""
+
+
+#while num!=sorteado:
+#    num=int(input("Escolha um número: "))
+#   if(num>sorteado):
+#        print("Número maior")
+#   elif(num<sorteado):
+#       print("Número menor")
+#   else:
+# print("Você acertou")
+
+
+
+print("Exiba os números de 1 até 20")
+numero = 1
+while numero < 21:
+    print(f'O valor é {numero} ')
+    numero = numero +1
+
+
+
