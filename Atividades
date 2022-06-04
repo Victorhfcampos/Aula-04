@@ -100,5 +100,24 @@ print(f"Soma impares: {somaimpares}")
 
 Atividade 09
 Solicite ao usuário um limite inferior e um superior, depois informe quantos números pares existem no intervalo.
+inf = int(input('Informe o limite inferior: '))
+sup = int(input('Informe o limite superior: '))
+qtdpares = 0
+
+for num in range(inf, sup):
+    if num %2 == 0:
+        qtdpares += 1
+
+print(f'A quantidade de pares no intervalo é {qtdpares}')
+
+Atividade 10
+for num in range(0,11):
+    if num%2==0:
+        print(num)
+for i in range(0,11):
+    if i%2!=0:
+        print(i)
+
+Atividade 11
 
 
