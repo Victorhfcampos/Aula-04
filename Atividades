@@ -73,5 +73,19 @@ for num in range(0,51):
 Imprima em tela a sequência de 100 até 0
 for num in range(100,-1,-1):
     print(num)
-    
-    
+
+Atividade 06
+Peça 5 números e informe a soma de todos eles e a média
+
+soma = 0
+for cont in range(0,5):
+    nota = float(input("Informe a nota: "))
+    soma += nota
+
+media = soma / 5
+print(f"A média final foi: {media}")
+
+Atividade 07
+Crie um programa que peça dez números inteiros e positivos.
+Ao finalizar, informe separadamente o valor da soma dos números pares e dos números ímpares.
+
