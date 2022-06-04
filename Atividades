@@ -120,3 +120,22 @@ for i in range(0,11):
 
 Atividade 11
 
+nome = input("Informe seu nome completo: ")
+qtdvogais = 0
+qtdcons = 0
+for letra in nome.replace(" ", " "):
+    if letra in 'aeiou':
+        qtdvogais = qtdvogais + 1
+    else:
+        qtdcons = qtdcons + 1
+print(qtdvogais)
+print(qtdcons)
+
+Atividade 12
+O Sr. Manoel Joaquim acaba de adquirir uma panificadora e pretende implantar a metodologia da tabelinha, que já é um sucesso na sua loja de 1,99. Você foi contratado para desenvolver o programa que monta a tabela de preços de pães, de 1 até 50 pães, a partir do preço do pão informado pelo usuário, conforme o exemplo abaixo:
+preco = float(input('Informe o valor do pão: '))
+
+print(f'Preço do pão: R${preco:.2f}')
+print('Panificadora Pão de Ontem - Tabela de Preços')
+for qtdP in range(1,51):
+    print(f'{qtdP} - R${(qtdP*preco):.2f}')
